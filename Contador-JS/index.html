@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <!--Titulo-->
+    <title>Contador</title>
+
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="contador">
+        <div class="logo">
+            <h1>Contador</h1>
+            <p>Clique nos botões para alterar o valor</p>
+        </div>
+        
+        <div class="botoes" id="counter">
+            <button name="Subtrair" onclick="decrement()">-</button>
+            <span id="currentNumber">0</span>
+            <button name="Adicionar" onclick="increment()">+</button>
+        </div>
+    </div>
+    <!--Scripts-->
+    <script src="./script.js"></script>
+</body>
+</html>
